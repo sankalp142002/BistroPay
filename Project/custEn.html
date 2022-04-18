@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer Enrollment</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <div class="inner-box">
+          <div class="forms-wrap">
+            <form action="main.html" autocomplete="off" class="sign-in-form">
+              <div class="logo">
+                <img src="./images/logo.png" alt="easyclass" />
+                <h4>Restaurant Billing System</h4>
+              </div>
+
+              <div class="heading">
+                <h2>Customer Info</h2>
+                <h6>Not Enrolled yet?</h6>
+                <a href="#" class="toggle">Enroll</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Name</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="tel"
+                    minlength="10"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Phone Number</label>
+                </div>
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label for="cars">Payment Method</label>
+                </div>
+
+                <input onclick="bye()" type="submit"  value="Show Bill" class="sign-btn" />
+
+              </div>
+            </form>
+
+            <form action="index.html" autocomplete="off" class="sign-up-form">
+              <div class="logo">
+                <img src="./images/logo.png" alt="easyclass" />
+                <h4>Restaurant Billing System</h4>
+              </div>
+
+              <div class="heading">
+                <h2>New Customer</h2>
+                <h6>Already have an account?</h6>
+                <a href="#" class="toggle">Sign in</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Name</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="email"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Email</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="tel"
+                    minlength="10"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Phone Number</label>
+                </div>
+
+                <input onclick="bye()" type="submit" onclick="loc()" value="Show Bill" class="sign-btn" />
+
+                <p class="text">
+                  By signing up, I agree to the
+                  <a href="#">Terms of Services</a> and
+                  <a href="#">Privacy Policy</a>
+                </p>
+              </div>
+            </form>
+          </div>
+
+          <div class="carousel">
+            <div class="images-wrapper">
+              <img src="./images/1.png" class="image img-1 show" alt="" />
+              <img src="./images/2.png" class="image img-2" alt="" />
+              <img src="./images/3.png" class="image img-3" alt="" />
+            </div>
+
+            <div class="text-slider">
+              <div class="text-wrap">
+                <div class="text-group">
+                  <h2>User Friendly Billing Software</h2>
+                  <h2>Customize as you like</h2>
+                  <h2>Billing Just Got Easier</h2>
+                </div>
+              </div>
+
+              <div class="bullets">
+                <span class="active" data-value="1"></span>
+                <span data-value="2"></span>
+                <span data-value="3"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Javascript file -->
+
+    <script src="app2.js"></script>
+    <script>
+      function bye(){
+        alert("Thankyou!!")
+      }
+    </script>
+  </body>
+</html>
