@@ -28,7 +28,7 @@ body{
 }
 #cart-plus{
     position: absolute;
-    right: 150px;
+    right: 151px;
     color: goldenrod;
     background: black;
     border: 0px;
@@ -41,7 +41,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 41px;
     padding-bottom: 10px;
     position: sticky;
     top: 0;
@@ -62,9 +62,9 @@ body{
 }
 .util i,.user i{
     font-size: 18px;
-    margin: 0 16px;
+    margin: 0 15px;
     border: 1px solid crimson;
-    padding: 8px 16px;
+    padding: 8px 15px;
     color: crimson;
     border-radius: 20px;
     cursor: pointer;
