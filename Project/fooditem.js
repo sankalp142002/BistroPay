@@ -17,6 +17,7 @@ const foodItem= [
     img: 'images/Shahi Dum Gosht.webp',
     quantity: 1
 },
+    
 {
     id: 3,
     name: 'Murgh Tikka Biryani',
